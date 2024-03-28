@@ -13,7 +13,7 @@ console.log(evenList);
 console.log(oddList);
 var results = []
 for (let i = 0; i < Infinity; i++) {
-    var inputWin = prompt('Введите что то').split(' ')
+    var inputWin = prompt('Введите: ').split(' ')
 
     if (inputWin[0] == 'add,') {
         for (let i = 0; i < inputWin.length; i++) {
